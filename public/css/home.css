@@ -1,0 +1,11 @@
+/* HEADER */
+.home__header--box-logo {
+    margin: 15px auto 30px;
+    width: 180px;
+}
+
+.home__header--logo {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
