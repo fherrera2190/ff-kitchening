@@ -1,9 +1,15 @@
+:root {
+    --colorRojo: #b81e14;
+    --colorGris: #92908b;
+}
+
 * {
     margin: 0;
 }
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 li {

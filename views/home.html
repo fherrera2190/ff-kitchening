@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitchening</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -13,7 +16,8 @@
         <div class="home__header--box-logo">
             <img class="home__header--logo" src="/img/logo.jpg" alt="logo_kitchening">
         </div>
-        <nav>
+        <a class="home__header--bars" href="#"><i class="fa fa-bars fa-lg"></i></a>
+        <nav class="home_header__nav--menu">
             <ul>
                 <li><a href="/">home</a></li>
                 <li><a href="/quienes">quienes</a></li>
@@ -24,21 +28,22 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
-            <!-- <img src="/img/img-banner.jpg" alt="banner"> -->
+    <main class="home__main">
+        <div class="home__main__section--banner">
+            <img src="/img/img-banner.jpg" alt="banner">
         </div>
-        <div>
-            <article>
-                <div>
-                    <img src="/img/img-pdto-1.jpg" alt="producto1">
-                    <img src="/img/img-nuevo.png" alt="nuevo">
-                    <a href="">AMPLIAR FOTO</a>
+        <div class="home__main__section--products">
+            <article class="home__main__section__article">
+                <div class="home__main__section__article--box">
+                    <img class="home__main__section__article--sticker" src="/img/img-nuevo.png" alt="nuevo">
+                    <img class="home__main__section__article--image" src="/img/img-pdto-1.jpg" alt="producto1">
+                    <a class="home__main__section__article--zoom" href="">AMPLIAR FOTO</a>
                 </div>
-                <h4>Lorem, ipsum dolor.</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, amet quas distinctio velit dolorem
+                <h4 class="home__main__section__article--title">Lorem, ipsum dolor.</h4>
+                <p class="home__main__section__article--description">Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Sunt, amet quas distinctio velit dolorem
                     inventore dolor.</p>
-                <a href="">ver más</a>
+                <a class="home__main__section__article--more" href="">ver más</a>
             </article>
             <article>
                 <div>
@@ -98,8 +103,8 @@
         </div>
 
     </main>
-    <footer>
-        <nav>
+    <footer class="home__footer">
+        <nav class="home__footer__nav--menu">
             <ul>
                 <li><a href="/">home</a></li>
                 <li><a href="/quienes">quienes</a></li>
@@ -110,6 +115,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="https://kit.fontawesome.com/be2c20f70d.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
