@@ -21,7 +21,14 @@ ul {
 }
 
 body {
+    max-width: 1180px;
     background-image: url("/img/bg-body.png");
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 10px;
+}
+
+@media (min-width:1180px) {
+    body {
+        margin: 0 auto;
+    }
 }
